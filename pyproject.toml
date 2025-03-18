@@ -1,0 +1,7 @@
+[project]
+name = "titanic"
+version = "0.1.0"
+description = "Yet another EDA and ML model predicting Titanic survival"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
