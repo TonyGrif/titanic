@@ -22,8 +22,12 @@
         (python312.withPackages (ps:
           with ps; [
             jupyterlab
+            pandas
           ]))
       ];
+      shellHook = ''
+        jupyter lab
+      '';
     };
   };
 }
